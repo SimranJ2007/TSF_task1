@@ -1,0 +1,117 @@
+html, body, ul, ol, li, h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+
+header {
+  height: 60px;
+  width: 100%;
+  background-color: #2f5167;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-left {
+  float: left;
+  padding-top: 15px;
+  letter-spacing: 2px;
+}
+
+.header-left h2 {
+  font-weight: lighter;
+}
+
+
+.header-right {
+  float: right;
+  margin-right: -100px;
+}
+
+.header-right a {
+  line-height: 60px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.contain {
+  max-width: 1170px;
+  padding: 225px 15px;
+  margin: 0 auto;
+}
+
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(bank.jpg);
+  opacity: 0.8;
+  background-size: cover;
+  text-align: left;
+  height: 400px;
+}
+
+.top-wrapper h1 {
+  opacity: 1.0;
+  color: Maroon;
+  letter-spacing: 10px;
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+
+.mid-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+  height: 430px;
+  box-shadow: 5px 10px 8px 10px #888888;
+}
+
+.m-container {
+  max-width: 1000px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.user {
+  float: left;
+  width: 50%
+}
+
+.transac {
+  float: left;
+  margin-top: 275px;
+  width: 50%;
+}
+
+footer p {
+  color: black;
+  font-size: 13px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #26d0c9;
+}
